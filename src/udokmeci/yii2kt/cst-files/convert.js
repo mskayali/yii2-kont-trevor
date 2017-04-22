@@ -13,9 +13,7 @@ var SirTrevorCustomBlockAttributes = {
     getCustomSirTrevorPart: function() {
         if (this.customSirTrevorPart)
             return this.customSirTrevorPart;
-        return this.customSirTrevorPart = this.getAllParts().customSirTrevorPart({
-            block: this
-        });
+            //return this.customSirTrevorPart = this.getAllParts().customSirTrevorPart({block: this});
     },
     onBlockRender: function() {
         var that = this;
