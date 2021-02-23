@@ -1,6 +1,6 @@
 <?php
 namespace udokmeci\yii2kt;
-use yii\base\Object;
+use yii\base\BaseObject;
 use yii\base\InvalidConfigException;
 use \Mustache_Engine;
 
